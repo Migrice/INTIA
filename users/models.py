@@ -61,3 +61,4 @@ class User(AbstractUser):
 
     def is_client(self):
         return self.role == 'CLIENT'
+
